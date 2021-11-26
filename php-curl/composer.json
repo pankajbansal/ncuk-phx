@@ -1,0 +1,24 @@
+{
+    "name": "ncukphx/php-curl",
+    "description": "Ncuk Phx php curl will helps request the provided url and get the response based on inputs",
+    "keywords": ["composer", "package", "curl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prithabai",
+            "email": "prithabai@gmail.com"
+        }
+    ],
+    "archive": {
+        "exclude": ["devops", ".git", "Makefile", ".gitmodules", "dist"]
+    },
+    "type": "package",
+    "autoload": {
+        "psr-4": {"NUCKPhx\\PhpCurl\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"NUCKPhx\\PhpCurl\\Tests\\": "tests/"}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
